@@ -1,0 +1,113 @@
+/* Clear the default formatting */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background: #e6e6e6;
+}
+
+/* Layout */
+#header-area {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+#logo-area,
+#menu-area {
+  padding: 10px;
+}
+
+#main-area {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#post-area {
+  width: 660px;
+  float: left;
+}
+
+#side-area {
+  width: 240px;
+  float: right;
+}
+
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fbf2f2;
+}
+
+.side-content {
+  background-color: #fbf2f2;
+  padding: 10px;
+  border-bottom: 1px solid #c9c5c5;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background-color: #fbf2f2;
+}
+
+/* Menu formatting */
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header-area a:link,
+#header-area a:visited {
+  color: #f5f2f2;
+  padding: 8px 12px;
+}
+
+#header-area a:hover {
+  color: #f7b600;
+  background-color: #f5f2f2;
+  text-decoration: none;
+}
+
+/* General formatting */
+
+h1 {
+  color: #4e4e4e;
+  font-size: 30px;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  color: #565656;
+  background-color: #fbf2f2;
+  padding: 5px;
+}
+
+#white {
+  color: #fbf2f2;
+}
+
+.post-date {
+  font-size: 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+}
